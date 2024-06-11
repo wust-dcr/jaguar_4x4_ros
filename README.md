@@ -1,5 +1,9 @@
 # Build
 ```bash
+mkdir jaguar_ws
+cd jaguar_ws
+git clone https://github.com/wust-dcr/jaguar_4x4_ros src/
+
 source /opt/ros/noetic/setup.bash 
 catkin_make
 
