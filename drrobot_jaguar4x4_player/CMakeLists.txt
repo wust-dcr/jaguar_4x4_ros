@@ -56,7 +56,7 @@ find_package(catkin REQUIRED COMPONENTS DrRobotMotionSensorDriver geometry_msgs 
 catkin_package(
    INCLUDE_DIRS include
 #  LIBRARIES drrobot_jaguar4x4_player
-  CATKIN_DEPENDS DrRobotMotionSensorDriver geometery_msgs nav_msgs roscpp roslib rospy sensor_msgs std_msgs tf message_runtime
+  CATKIN_DEPENDS DrRobotMotionSensorDriver geometry_msgs nav_msgs roscpp roslib rospy sensor_msgs std_msgs tf message_runtime
 #  DEPENDS system_lib
 
 )
